@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ravi's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #CFF4D2;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: #afe3d6;
+  padding: 20px;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Footer */
+
+.footer {
+  left: 0;
+  bottom: 0;
+  float: left; 
+  width: 33.3%;
+  padding: 20px;
+  background: #E0ECDE;
+  color: black;
+}
+
+.button {
+      background-color: #add8e6;
+      width: 80px;
+      height: 50px;
+  }
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://github.com/Ivar-Teja/pic/blob/master/PICTURESQUE.png?raw=true" alt="logo" style="float: left;padding: 8px;width: 150px;height: 90px">
+  <h1 style="text-shadow:4px 4px 4px #205072">WILDLIFE PORTFOLIO</h1>
+</div>
+
+<div class="navbar">
+  <a href="https://www.instagram.com/stories/highlights/17861656885440245/" target="_blank">HOME</a>
+  <a href="https://www.instagram.com/p/BxxTyNpFGe3/" target="_blank">LINKS</a>
+  <a href="https://www.instagram.com/ravi_batchala/" target="_blank">BUSINESS</a>
+  <a href="https://www.instagram.com/ravi_batchala/" target="_blank">WORK</a>
+  <a href="https://www.amazon.in/Nikon-D850-45-7MP-Camera-Optical/dp/B00JE2R38C" target="_blank">GEAR</a>
+  <a href="https://www.facebook.com/profile.php?id=100007467462949" target="_blank" class="right">CONTACT ME</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2 style="text-shadow:2px 2px 2px grey">About Me</h2>
+    <img src="https://github.com/Ivar-Teja/pic/blob/master/IMG_20200120_173602_578.jpg?raw=true" style="width: 450px;height:450px;padding: 8px">
+    <p><b>An Ordinary boy romancing with Nikon!</b></p>
+    <h3 style="text-shadow:1.5px 1.5px 1.5px grey">My Timeline</h3>
+    <p><b># </b>DOB : 15th April 2000</p>
+    <p><b>...</b></p>
+    <p><b># </b>Called as Ravi !!</p> 
+    <p><b>...</b></p>
+    <p><b># </b>Graduating at Sikkim Manipal Institution of Technology</p>
+    <p><b>...</b></p>
+    <p><b># </b>Worked as Co-ordinator at the Photography Club {The Crew}</p> 
+    <p><b>...</b></p>
+    <p><b># </b>Participated as a competitor at the Nat-Geo Wildlife Photography Competition-2018</p>
+    <p><b>...</b></p>
+    <p><b># </b>My Gear : <b>Nikon D850 body, 600mm f/4 telephoto lens</b></p>
+    
+  </div>
+  <div class="main">
+    <h2 style="text-shadow:1.5px 1.5px 1.5px grey">Welcome to my Wildlife Portfolio !!</h2><br>
+      <div class="row">
+    <div class="column">
+      <img src="https://github.com/Ivar-Teja/portfolio.github.io/blob/master/images/pic07.jpg?raw=true" alt="tiger" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://github.com/Ivar-Teja/portfolio.github.io/blob/master/images/pic03.jpg?raw=true" alt="monkey" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://raw.githubusercontent.com/Ivar-Teja/portfolio.github.io/master/images/pic06.jpg" alt="Peacock" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://github.com/Ivar-Teja/portfolio.github.io/blob/master/images/pic04.jpg?raw=true" alt="deer" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://github.com/Ivar-Teja/portfolio.github.io/blob/master/images/pic05.jpg?raw=true" alt="crane" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="https://github.com/Ivar-Teja/portfolio.github.io/blob/master/images/elephant.jpg?raw=true" alt="leapord" style="width:100%">
+    </div>
+    </div>
+</div>
+
+<div class="footer">
+              <p><b>ADDRESS -> Nizampet Kukatpally Hyderabad</b></p>
+              <p><b>PHONE -> 9177553311</b></p>
+              <p><b>EMAIL -> ravi_201800168@smit.smu.edu.in</b></p>  
+    </div> 
+                
+<div class="footer"> 
+              <h3 style="text-shadow:1px 1px 1px #205072">Find Me On :</h3>
+              <a href="https://twitter.com/RaviTej29781697" target="_blank"><button class = "button"><b><i><u>twitter</u></i></b></button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.facebook.com/profile.php?id=100007467462949" target="_blank"><button class = "button"><b><i><u>facebook</u></i></b></button></a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="https://www.instagram.com/ravi_batchala/" target="_blank"><button class = "button"><b><i><u>instagram</u></i></b></button></a>
+    </div> 
+
+<div class="footer"><br>
+                    <br>
+                    <br>
+              <footer><h2><b><u>&copy; Copyright 2020 Ravi</u></b></h2></footer>
+    </div>
+</div>
+</body>
+</html>
